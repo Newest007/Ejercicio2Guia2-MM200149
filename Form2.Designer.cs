@@ -39,7 +39,7 @@ namespace Ejercicio2Guia2_MM200149
             // 
             // bttregreso
             // 
-            this.bttregreso.Location = new System.Drawing.Point(229, 237);
+            this.bttregreso.Location = new System.Drawing.Point(184, 223);
             this.bttregreso.Name = "bttregreso";
             this.bttregreso.Size = new System.Drawing.Size(131, 41);
             this.bttregreso.TabIndex = 0;
@@ -97,7 +97,7 @@ namespace Ejercicio2Guia2_MM200149
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 290);
+            this.ClientSize = new System.Drawing.Size(376, 275);
             this.Controls.Add(this.txtcelsiusfaren);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
