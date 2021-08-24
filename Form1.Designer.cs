@@ -58,36 +58,40 @@ namespace Ejercicio2Guia2_MM200149
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(81, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 37);
             this.button1.TabIndex = 2;
             this.button1.Text = "Temperatura";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Location = new System.Drawing.Point(229, 137);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 37);
             this.button2.TabIndex = 3;
             this.button2.Text = "Longitud";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Location = new System.Drawing.Point(386, 137);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 37);
             this.button3.TabIndex = 4;
             this.button3.Text = "Peso";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(555, 231);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -95,7 +99,7 @@ namespace Ejercicio2Guia2_MM200149
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormPrincipal";
-            this.Text = "Form1";
+            this.Text = "Ejercicio 2 Guia 2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
