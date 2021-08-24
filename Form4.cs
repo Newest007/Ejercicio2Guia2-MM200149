@@ -23,5 +23,19 @@ namespace Ejercicio2Guia2_MM200149
             this.Close();
             frmprincipal.Visible = true;
         }
+
+        private void formpeso_Load(object sender, EventArgs e)
+        {
+            txtkilolibras.Enabled = false;
+        }
+
+        private void txtkilogramos_TextChanged(object sender, EventArgs e)
+        {
+            double kilogramos, respuesta;
+            kilogramos = Convert.ToDouble(txtkilogramos.Text);
+            respuesta = kilogramos * 2.205;
+            txtkilolibras.Text = respuesta.ToString();
+
+        }
     }
 }

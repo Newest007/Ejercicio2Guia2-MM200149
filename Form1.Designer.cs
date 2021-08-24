@@ -71,6 +71,7 @@ namespace Ejercicio2Guia2_MM200149
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(229, 137);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 37);
@@ -82,6 +83,7 @@ namespace Ejercicio2Guia2_MM200149
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(386, 137);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 37);
