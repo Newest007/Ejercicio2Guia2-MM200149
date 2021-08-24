@@ -21,5 +21,30 @@ namespace Ejercicio2Guia2_MM200149
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Form frmtemperatura = new formtemp();
+            this.Visible = false;
+            frmtemperatura.Visible = true;
+           
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            Form frmlongitudes = new formlong();
+            this.Visible = false;
+            frmlongitudes.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form frmpeso = new formpeso();
+            this.Visible = false;
+            frmpeso.Visible = true;
+        }
     }
 }
