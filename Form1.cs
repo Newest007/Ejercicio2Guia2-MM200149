@@ -46,5 +46,10 @@ namespace Ejercicio2Guia2_MM200149
             this.Visible = false;
             frmpeso.Visible = true;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

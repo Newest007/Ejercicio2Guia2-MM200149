@@ -29,13 +29,25 @@ namespace Ejercicio2Guia2_MM200149
         /// </summary>
         private void InitializeComponent()
         {
+            this.bttregreso = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // bttregreso
+            // 
+            this.bttregreso.Location = new System.Drawing.Point(317, 202);
+            this.bttregreso.Name = "bttregreso";
+            this.bttregreso.Size = new System.Drawing.Size(131, 41);
+            this.bttregreso.TabIndex = 1;
+            this.bttregreso.Text = "Regresar";
+            this.bttregreso.UseVisualStyleBackColor = true;
+            this.bttregreso.Click += new System.EventHandler(this.bttregreso_Click);
             // 
             // formlong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 255);
+            this.Controls.Add(this.bttregreso);
             this.Name = "formlong";
             this.Text = "Convirtiendo Longitudes...";
             this.ResumeLayout(false);
@@ -43,5 +55,7 @@ namespace Ejercicio2Guia2_MM200149
         }
 
         #endregion
+
+        private System.Windows.Forms.Button bttregreso;
     }
 }
