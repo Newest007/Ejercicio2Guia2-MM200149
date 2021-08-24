@@ -34,7 +34,7 @@ namespace Ejercicio2Guia2_MM200149
             // 
             // bttregreso
             // 
-            this.bttregreso.Location = new System.Drawing.Point(317, 202);
+            this.bttregreso.Location = new System.Drawing.Point(165, 190);
             this.bttregreso.Name = "bttregreso";
             this.bttregreso.Size = new System.Drawing.Size(131, 41);
             this.bttregreso.TabIndex = 1;
@@ -46,7 +46,7 @@ namespace Ejercicio2Guia2_MM200149
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 255);
+            this.ClientSize = new System.Drawing.Size(341, 238);
             this.Controls.Add(this.bttregreso);
             this.Name = "formlong";
             this.Text = "Convirtiendo Longitudes...";
