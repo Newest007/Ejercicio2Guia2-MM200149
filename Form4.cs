@@ -37,5 +37,13 @@ namespace Ejercicio2Guia2_MM200149
             txtkilolibras.Text = respuesta.ToString();
 
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+
+            Form frmprincipal = new FormPrincipal();
+            this.Close();
+            frmprincipal.Visible = true;
+        }
     }
 }

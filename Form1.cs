@@ -51,5 +51,10 @@ namespace Ejercicio2Guia2_MM200149
         {
             this.Close();
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
